@@ -1,0 +1,50 @@
+
+body,html{
+	height: 100%;padding: 0; margin: 0;
+}
+.container{
+	position: relative;height: 100%; min-height: 100%;
+}
+.nav{
+	height: 50px; width: 100%; background-color: #2D68BF;
+}
+.navList{
+	 width: 25%;margin: 0 auto;
+}
+.navList .navItem{
+	float: left; width: 25%; text-align: center;height: 50px; line-height: 50px;list-style: none; 
+}
+.navItem a{
+	color: #fff; font-size: 15px;
+}
+.claerFix{
+	zoom:1;
+}
+.clearFix:after{
+	content:'.';display: block;clear:both; height: 0; width: 0; visibility: hidden;
+}
+.page{
+	width: 655px; margin:0 auto; margin-top:5%;  padding-bottom: 50px;
+}
+.page .typeList{
+	float: left; margin: 10px 15px 0 0;height: 200px; width: 200px; border: 1px solid #7B8FB6;
+	text-align: center; line-height: 200px; background-color: #DCE6F2;
+	-moz-box-shadow: 1px 1px 1px 1px #989FB0; -webkit-box-shadow:1px 1px 1px 1px #989FB0;
+	box-shadow: 1px 1px 1px 1px #989FB0; border-radius: 2px;
+}
+.typeList a{
+	font: 20px '宋体'; text-decoration: none; color:#38669A;
+}
+.typeList:hover{
+	/*background-color:#213F8B ;*/border: 1px solid #427FA7;
+}
+.typeList:hover a{
+	color: #3D3B3B; font-weight: bolder;
+}
+.footer
+ {
+ 	position:absolute;bottom:0;width:100%;height:50px;
+}
+.footer p{
+	font-size: 15px;text-align: center;
+}
