@@ -2,20 +2,14 @@
 body,html{
 	height: 100%;padding: 0; margin: 0;
 }
-.container{
+.content{
 	position: relative;height: 100%; min-height: 100%;
 }
-.nav{
-	height: 50px; width: 100%; background-color: #2D68BF;
+.myNavbar{
+	background-color: #2D68BF; border-radius: 0;
 }
-.navList{
-	 width: 25%;margin: 0 auto;
-}
-.navList .navItem{
-	float: left; width: 25%; text-align: center;height: 50px; line-height: 50px;list-style: none; 
-}
-.navItem a{
-	color: #fff; font-size: 15px;
+#myNavbar a{
+	color: #fff; background-color: #2D68BF;
 }
 .claerFix{
 	zoom:1;
@@ -24,9 +18,15 @@ body,html{
 	content:'.';display: block;clear:both; height: 0; width: 0; visibility: hidden;
 }
 .page{
-	width: 655px; margin:0 auto; margin-top:5%;  padding-bottom: 50px;
+	width: 100%;  margin-top:20px;  padding-bottom: 20px;
 }
-.page .typeList{
+.page>div{
+	width: 80%;
+}
+.page .nav a{
+	font-size: 14px;
+}
+/*.page .typeList{
 	float: left; margin: 10px 15px 0 0;height: 200px; width: 200px; border: 1px solid #7B8FB6;
 	text-align: center; line-height: 200px; background-color: #DCE6F2;
 	-moz-box-shadow: 1px 1px 1px 1px #989FB0; -webkit-box-shadow:1px 1px 1px 1px #989FB0;
@@ -35,11 +35,23 @@ body,html{
 .typeList a{
 	font: 20px '宋体'; text-decoration: none; color:#38669A;
 }
-.typeList:hover{
-	/*background-color:#213F8B ;*/border: 1px solid #427FA7;
-}
 .typeList:hover a{
 	color: #3D3B3B; font-weight: bolder;
+}*/
+.articleList a{
+	font: bolder 18px '宋体'; color:#3D3C3C;  
+}
+.articleList li{
+	list-style: none;
+}
+.articleList .img{
+	float: left; margin-right: 10px;
+}
+ .articleList .summary p{
+  font:15px '宋体'; color: #6B6969; text-indent: 2em;
+}
+.control{
+	 text-align: center;
 }
 .footer
  {
