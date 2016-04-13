@@ -1,17 +1,59 @@
-
+*{
+	padding: 0; margin: 0;
+}
 body,html{
-	height: 100%;padding: 0; margin: 0;
+	height: 100%;
 }
 .content{
 	position: relative;height: 100%; min-height: 100%;
 }
 .myNavbar{
+	/*position: absolute; top: 0;width: 100%;*/
 	background-color: #2D68BF; border-radius: 0;
+}
+.myCarousel{
+	margin-top: -20px;
+}
+.my{
+	 height: 550px;
 }
 #myNavbar a{
 	color: #fff; background-color: #2D68BF;
 }
-.claerFix{
+.myContainer{
+	width: 100%;
+}
+.myNavbarTwo{
+	background-color: rgba(0,0,0,0.2); border-radius: 0;
+}
+#myNavbarTwo a{
+	background-color: rgba(0,0,0,0);
+}
+.indicate{
+	font: bolder 20px '黑体' ;vertical-align: middle;line-height: 50px;
+}
+.row1{
+	height: 50px; background-color: rgba(0,0,0,0.2); width: 100%;
+}
+.row1 div{
+	height: 50px;line-height: 50px;
+}
+.col-sm-12 h3 a{
+	color:#3C3C3C; font-size: 18px; line-height: 25px;
+}
+.col-sm-12 p{
+	color: #3C3C3C;font-size: 15px;line-height: 20px;
+}
+.footer{
+	background-color: #484747;
+}
+.footer div{
+	text-align: center;
+}
+.footer a{
+	font: bolder 14px '宋体'; color: #ffffff;
+}
+/*.claerFix{
 	zoom:1;
 }
 .clearFix:after{
@@ -25,7 +67,7 @@ body,html{
 }
 .page .nav a{
 	font-size: 14px;
-}
+}*/
 /*.page .typeList{
 	float: left; margin: 10px 15px 0 0;height: 200px; width: 200px; border: 1px solid #7B8FB6;
 	text-align: center; line-height: 200px; background-color: #DCE6F2;
@@ -38,7 +80,7 @@ body,html{
 .typeList:hover a{
 	color: #3D3B3B; font-weight: bolder;
 }*/
-.articleList a{
+/*.articleList a{
 	font: bolder 18px '宋体'; color:#3D3C3C;  
 }
 .articleList li{
@@ -59,4 +101,4 @@ body,html{
 }
 .footer p{
 	font-size: 15px;text-align: center;
-}
+}*/

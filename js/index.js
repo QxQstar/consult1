@@ -1,0 +1,9 @@
+// $(document).ready(
+// 	function(){
+// 		$('.fullPage').fullpage({
+// 			autoScrolling:false,
+// 			verticalCentered:false,
+// 			paddingTop:50
+// 		});
+// 	}
+// 	);
