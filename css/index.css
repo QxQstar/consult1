@@ -2,27 +2,30 @@
 	padding: 0; 
 	margin: 0;
 }
-body,html{
-	height: 100%;
-}
-.content{
+header{
 	position: relative;
-	height: 100%; 
-	min-height: 100%;
 }
 .myNavbar{
-	background-color: #2D68BF; 
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index:10;
+	width: 100%;
+	background-color: rgba(0,0,0,0); 
 	border-radius: 0;
 }
 .myCarousel{
-	margin-top: -20px;
+	z-index:1;
 }
 .my{
 	 height: 450px;
 }
 #myNavbar a{
 	color: #fff; 
-	background-color: #2D68BF;
+	background-color: rgba(0,0,0,0);
+}
+#myNavbar a:hover{
+	text-decoration: underline;
 }
 .myContainer{
 	width: 100%;
