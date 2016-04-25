@@ -38,6 +38,18 @@ header{
 	background-color: rgba(0,0,0,0); 
 	color: #434343;
 }
+#myNavbarTwo form{
+	width: 50%;
+}
+#myNavbarTwo form>div{
+	width: 65%;
+}
+/*#myNavbarTwo form>button{
+	width: 18%;
+}*/
+#myNavbarTwo form input{
+	width: 100%;
+}
 .indicate{
 	font: bolder 20px '黑体' ;
 	vertical-align: middle;
